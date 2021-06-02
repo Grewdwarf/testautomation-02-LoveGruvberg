@@ -1,0 +1,64 @@
+Login Page example:
+
+ELEMENTS:
+    * title
+    * location (url)
+    * username label
+    * username textField
+    * password label 
+    * password textField
+    * ...
+
+ACTIONS:
+    * perform login with correct credentials
+    * perform login with faulty credentials
+    * ...
+–––––––––––––––––––––––––––––––
+Dashboard example:
+
+ELEMENTS:
+    * title
+    * location (url)
+    * welcomeMessage label
+    * logout button
+    * roomView button 
+    * clientView button
+    * ...
+
+ACTIONS:
+    * perform logout
+    * navigate to rooms page
+    * navigate to clients page
+    * navigate to bills page
+    * ...
+
+
+
+
+
+    Test script in pseudo-code:
+
+    import loginPage
+    import dashboardPage
+
+    test setup
+    test teardown
+
+    ##Test cases
+    test case 01 - perform valid login {
+        perform login with right credentials
+        perform logout
+    }
+
+test case 02 - navigate through the pages {
+    perform login with right credentials
+    navigate to rooms page
+    navigate to dashboard
+    navigate to clients page
+    navigate to dashboard (again)
+    navigate to bills page
+    navigate to dashboard
+    navigate to reservations page
+    navigate to dashboard
+    perform logout
+}

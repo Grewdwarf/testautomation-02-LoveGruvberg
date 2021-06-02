@@ -1,8 +1,11 @@
 {
   "dependencies": {
+    "mocha": "^5.2.0",
+    "mochawesome": "^6.2.2",
+    "mochawesome-merge": "^4.2.0",
     "npx": "^10.2.2"
   },
-  "name": "LoveStefanAlex-project",
+  "name": "testautomation-02-LoveGruvberg",
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {
@@ -10,18 +13,19 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run -- reporter mochawesome"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Grewdwarf/LoveStefanAlex-git-Project.git"
+    "url": "git+https://github.com/Grewdwarf/testautomation-02-LoveGruvberg.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Grewdwarf/LoveStefanAlex-git-Project/issues"
+    "url": "https://github.com/Grewdwarf/testautomation-02-LoveGruvberg/issues"
   },
-  "homepage": "https://github.com/Grewdwarf/LoveStefanAlex-git-Project#readme",
+  "homepage": "https://github.com/Grewdwarf/testautomation-02-LoveGruvberg#readme",
   "description": ""
 }

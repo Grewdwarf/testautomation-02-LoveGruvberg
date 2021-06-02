@@ -1,0 +1,68 @@
+Rafael Silva –rasilva.1986@gmail.com
+Date: 2021-04-13
+Deadline:2021-04-30(23:55)
+Version: 1.0
+Testautomation–Assignment 02
+This assignment is mandatory and individual.
+
+The assignment is divided and planned for two weeks:
+
+    •Week 16: 
+Youwill refactor/re-write your cypress project from week 15. 
+You need to clean the code that  you  wrote and  organize  it,  according  to Page-objects.  
+Further you will configure your project and so be able to generate test reports out of test runs.
+
+    •Week 17: 
+You will add Visual Regression tests as part of your project.
+
+    Rules for submission:
+In this assignment, you will create a project with cypress.io,locally on your computer, 
+and a remote repository on GitHub.
+Your project and your remote repository should be named following the format: 
+    testautomation-02-namesurname (E.g.,testautomation-02-rafaelsilva).
+    
+Host your project at GitHub as a public repository and submit the link to your GitHub 
+repository at PingPong, at the submission page for assignment 02. 
+
+Further, in this submission page, you need to send a message where it reads if you 
+aim at a pass (G) or a Pass-with-distinction (VG) Grade.
+
+The details for G and VG can be found under Part I. 
+The deadline for this assignment is Friday the 30 April 2021 at 23:55. 
+
+Here are some things to consider:
+    •You will not be assessed by your skills with Git/Github, so keep it simple.
+    •The name of your project + repo is very important. Please, use the format describe above.
+    •Your project will be  ready to be run.
+        I.e., when  I correct your assignment, I will not need to make any small fix of any kind 
+        to be able to run it.
+        
+    •Please,  read the instructions  below and  make  sure  to  be  finished  with  all  of  them  
+    before submitting your work.
+    
+Part I (Requires the lectures/demos about Page-objects and the lectures/demos about Test reports)
+
+    •Pass (G):
+    Your task is to refactor/re-write your code by applying the Page-objects design pattern 
+    and, thus, make your code more structured and organized.
+    
+    Further, your last task in this assignment is that you configure your test project 
+    so that you can get test reports out of test runs. 
+    
+    •Pass-with-distinction (VG):
+    If you aim at a pass-with-distinction (VG) grade, your tests should be stable and you 
+    need to use random data with the help of faker.js. 
+    In order to check if your tests are stable, I will run them 10 times over and expect to 
+    get the same test result each time.
+
+Part II (Requires the lectures about Visual Regression Testing with percy.io)
+    •You will add  Visual Regression tests as part of your project.
+    This requirement is  mandatory, independently 
+    if you aim at a pass (G) or a pass-with-distinction (VG) grade.
+
+    NOTE: When you finishPart II, you will submit the link to your remote repository at 
+    Ping Pong and a  message that readsif you aim at a  Pass (G) or a 
+    Pass-with-distinction (VG) grade. 
+    
+    Please,  double-check that your solution follows the points
+    under Rules for submissionin this document.

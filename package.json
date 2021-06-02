@@ -1,19 +1,27 @@
 {
-  "name": "front-end",
+  "dependencies": {
+    "npx": "^10.2.2"
+  },
+  "name": "LoveStefanAlex-project",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "devDependencies": {
+    "cypress": "^7.2.0"
+  },
   "scripts": {
-    "cypress:open": "cypress open",
-    "cypress:run": "cypress run --spec front-end/integration/",
-    "test:vrt": "percy exec cypress run --spec front-end/integration/"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grewdwarf/LoveStefanAlex-git-Project.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@percy/cli": "^1.0.0-beta.48",
-    "@percy/cypress": "^3.1.0",
-    "cypress": "^7.1.0"
-  }
+  "bugs": {
+    "url": "https://github.com/Grewdwarf/LoveStefanAlex-git-Project/issues"
+  },
+  "homepage": "https://github.com/Grewdwarf/LoveStefanAlex-git-Project#readme",
+  "description": ""
 }

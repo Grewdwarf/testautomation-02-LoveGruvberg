@@ -18,6 +18,6 @@
         cy.wait(200)
         cy.get('#contact-form-comment-g3-comment').click().type("Lorem Ipsum")
         cy.wait(2500)
-        cy.request('https://falsktalarm.wordpress.com/contact/').log(".:CURRENT PAGE RELOADED:.")
+        cy.request('http://localhost:3000/').log(".:CURRENT PAGE RELOADED:.")
     })
 });

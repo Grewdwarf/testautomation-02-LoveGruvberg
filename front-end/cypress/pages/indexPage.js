@@ -1,8 +1,11 @@
 /// <reference types="cypress" />
 
+const { performLogout } = require("./dashboardPage")
+
 const loginPageTitle = 'Testers Hotel'
 const usernameTextfield = ':nth-child(1)' > 'input'
 const passwordTextfield = ':nth-child(2)' > 'input'
+const LOGOUT_BTN = '.user > .btn'
 const submitBtn = '.btn'
 const formLabel = 'Login'
 
@@ -20,5 +23,6 @@ function performValidLogin(cy, username, password, confirmationContent){
 
 module.exports = {
     checkLoginPageTitle,
-    performValidLogin
+    performValidLogin,
+    performLogout
 }
